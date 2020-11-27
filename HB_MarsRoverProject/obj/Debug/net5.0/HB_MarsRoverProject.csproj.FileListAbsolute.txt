@@ -1,0 +1,16 @@
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\obj\Debug\net5.0\HB_MarsRoverProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\obj\Debug\net5.0\HB_MarsRoverProject.AssemblyInfoInputs.cache
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\obj\Debug\net5.0\HB_MarsRoverProject.AssemblyInfo.cs
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\obj\Debug\net5.0\HB_MarsRoverProject.csproj.CoreCompileInputs.cache
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\bin\Debug\net5.0\HB_MarsRoverProject.exe
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\bin\Debug\net5.0\HB_MarsRoverProject.deps.json
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\bin\Debug\net5.0\HB_MarsRoverProject.runtimeconfig.json
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\bin\Debug\net5.0\HB_MarsRoverProject.runtimeconfig.dev.json
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\bin\Debug\net5.0\HB_MarsRoverProject.dll
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\bin\Debug\net5.0\ref\HB_MarsRoverProject.dll
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\bin\Debug\net5.0\HB_MarsRoverProject.pdb
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\obj\Debug\net5.0\HB_MarsRoverProject.dll
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\obj\Debug\net5.0\ref\HB_MarsRoverProject.dll
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\obj\Debug\net5.0\HB_MarsRoverProject.pdb
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\obj\Debug\net5.0\HB_MarsRoverProject.genruntimeconfig.cache
+C:\Users\eturkoglu\source\repos\HB_MarsRoverProject\HB_MarsRoverProject\obj\Debug\net5.0\HB_MarsRoverProject.csprojAssemblyReference.cache
