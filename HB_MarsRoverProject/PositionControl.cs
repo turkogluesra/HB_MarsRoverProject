@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HB_MarsRoverProject
 {
@@ -38,9 +35,7 @@ namespace HB_MarsRoverProject
                             coordinates.Compass = 'S';
                             break;
                         default:
-                            Console.WriteLine($"Invalid Character {letters}");
-                            Rover rover = new Rover();
-                            rover.ReadPositionLetter(area);
+                            Console.WriteLine($"Invalid input -> {letters} ");
                             break;
                     }
 
@@ -60,7 +55,7 @@ namespace HB_MarsRoverProject
                             coordinates.Compass = 'N';
                             break;
                         default:
-                            Console.WriteLine($"Invalid Character {letters}");
+                            Console.WriteLine($"Invalid input -> {letters}");
                             break;
                     }
 
@@ -80,7 +75,7 @@ namespace HB_MarsRoverProject
                             countLeft++;
                             break;
                         default:
-                            Console.WriteLine($"Invalid Character {letters}");
+                            Console.WriteLine($"Invalid input -> {letters}");
                             break;
                     }
             }
@@ -88,13 +83,13 @@ namespace HB_MarsRoverProject
             coordinates.X += (countRight - countLeft);
             coordinates.Y += (countUp - countDown);
 
-            if ((coordinates.X <= coordinates.Area[0] && coordinates.X >= 0) && (coordinates.Y <= coordinates.Area[1] && coordinates.Y >= 0))
+            if ((coordinates.X <= coordinates.Area[0] || coordinates.X >= 0) || (coordinates.Y <= coordinates.Area[1] || coordinates.Y >= 0))
             {
                 Console.WriteLine($"{coordinates.X} {coordinates.Y} {coordinates.Compass}");
             }
             else
             {
-                Console.WriteLine("Rover robot is out of boundaries");
+                Console.WriteLine("Rover robot out of boundaries");
                 Environment.Exit(0);
             }
         }
