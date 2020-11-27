@@ -39,6 +39,8 @@ namespace HB_MarsRoverProject
                             break;
                         default:
                             Console.WriteLine($"Invalid Character {letters}");
+                            Rover rover = new Rover();
+                            rover.ReadPositionLetter(area);
                             break;
                     }
 
