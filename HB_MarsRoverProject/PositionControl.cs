@@ -9,8 +9,8 @@ namespace HB_MarsRoverProject
         public void FinalPositions(string letters, List<string> position, List<int> area)
         {
             int l = letters.Length;
-            int countUp = 0, countDown = 0;
-            int countLeft = 0, countRight = 0;
+            int countUp = 0, countDown = 0; 
+            int countLeft = 0, countRight = 0; // count to total movement of Rover Robot
 
             coordinates.X = Convert.ToInt32(position[0]);
             coordinates.Y = Convert.ToInt32(position[1]);
@@ -19,7 +19,7 @@ namespace HB_MarsRoverProject
 
             for (int i = 0; i < l; i++)
             {
-                if (letters[i] == 'L')
+                if (letters[i] == 'L') // Logic of this switch-case (e.g  if robot turns left from current compass direction sets to left side of compass direction and if "move" command read from letters counter increases where the compass shows )
                     switch (coordinates.Compass)
                     {
                         case 'N':
@@ -80,10 +80,10 @@ namespace HB_MarsRoverProject
                     }
             }
 
-            coordinates.X += (countRight - countLeft);
-            coordinates.Y += (countUp - countDown);
+            coordinates.X += (countRight - countLeft); //final coordinate on x-axis
+            coordinates.Y += (countUp - countDown); //final coordinate on y-axis
 
-            if ((coordinates.X <= coordinates.Area[0] || coordinates.X >= 0) || (coordinates.Y <= coordinates.Area[1] || coordinates.Y >= 0))
+            if ((coordinates.X <= coordinates.Area[0] || coordinates.X >= 0) || (coordinates.Y <= coordinates.Area[1] || coordinates.Y >= 0)) // robot must be between boundaries
             {
                 Console.WriteLine($"{coordinates.X} {coordinates.Y} {coordinates.Compass}");
             }

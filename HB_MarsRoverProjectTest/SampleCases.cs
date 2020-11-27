@@ -14,8 +14,8 @@ namespace HB_MarsRoverProjectTest
         [TestMethod]
         public void Case_LMLMLMLMM_MMRMMRMRRM()
         {
-            List<string> position = null; 
-            List<string> outputOfT = new List<string>();           
+            List<string> position = null;  
+            List<string> output = new List<string>();           
 
             List<Coordinates> coordinate = new List<Coordinates>();
             coordinate.Add(new Coordinates { X = 1, Y = 3, Compass= 'N' });
@@ -34,12 +34,12 @@ namespace HB_MarsRoverProjectTest
 
                 _positionControl.Setup(x=>x.FinalPositions(roverPosition.Letters[i], position, roverPosition.Area));
 
-                outputOfT.Add(position[0] + ' ' + position[1] + ' ' + position[2]);
+                output.Add(position[0] + ' ' + position[1] + ' ' + position[2]);
             }            
 
-            var output = String.Join("\n", outputOfT.ToArray());
-            var expectedOutput = "1 3 N\n3 3 E";
-            Assert.AreEqual(output, expectedOutput); 
+            var currentOutput = String.Join("\n", output.ToArray());
+            var target = "1 3 N\n3 3 E";
+            Assert.AreEqual(output, target); 
         }
     }
 }

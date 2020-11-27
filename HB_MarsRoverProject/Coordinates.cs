@@ -8,11 +8,11 @@ namespace HB_MarsRoverProject
 {
     public class Coordinates
     {
-        public int X { get; set; }
-        public int Y { get; set; }
-        public char Compass { get; set; }
-        public List<int> Area { get; set; }        
-        public List<string> Letters { get; set; }
+        public int X { get; set; } // X-axis
+        public int Y { get; set; } //Y-axis
+        public char Compass { get; set; } //North, South, East, West
+        public List<int> Area { get; set; } //Rectangle of area       
+        public List<string> Letters { get; set; } //Movements of rover robot
 
         public Coordinates()
         {

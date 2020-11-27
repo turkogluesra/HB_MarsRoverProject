@@ -8,6 +8,6 @@ namespace HB_MarsRoverProject
 {    
     public interface IPositionControl
     {
-        void FinalPositions(string letters, List<string> position, List<int> area);
+        void FinalPositions(string letters, List<string> position, List<int> area); // Calculate the final position of rover robot
     }
 }

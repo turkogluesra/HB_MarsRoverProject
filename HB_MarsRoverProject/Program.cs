@@ -12,10 +12,10 @@ namespace HB_MarsRoverProject
             {
                 Coordinates coordinates = new Coordinates();
                 Rover rover = new Rover();
-                List<int> area = Console.ReadLine().Trim().Split(' ').Select(int.Parse).ToList();
+                List<int> area = Console.ReadLine().Trim().Split(' ').Select(int.Parse).ToList(); //input of boundraies of axis
                 coordinates.Area = area;
                 rover.ReadPositionLetter(area);
-                Console.WriteLine($"{coordinates.X} {coordinates.Y} {coordinates.Compass}");
+                Console.WriteLine($"{coordinates.X} {coordinates.Y} {coordinates.Compass}"); //final position of robot
             }
             catch (Exception ex)
             { 
